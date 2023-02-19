@@ -1,7 +1,6 @@
 import Image from "next/image";
 import React from "react";
 import me from "../assets/me.png";
-import vector from "../assets/Vector.png";
 import img from "../assets/img2.png";
 import img2 from "../assets/img.png";
 import img3 from "../assets/img3.png";
@@ -11,11 +10,6 @@ const Main = () => {
     <div
       id="home"
       className="w-full md:h-scr een bg-cover text-center"
-      style={{
-        backgroundImage: { vector },
-        backgroundPosition: "center",
-        backgroundSize: "cover",
-      }}
     >
       <div className="max-w-[1240px] w-full h-screen mx-auto p-2 flex justify-center items-center">
         <div>
