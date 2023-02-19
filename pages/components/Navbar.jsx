@@ -44,11 +44,6 @@ export const Navbar = () => {
                         About us
                     </li>
                     </Link>
-                    <Link to="" spy={true} smooth={true} offset={-50} duration={500}>
-                    <li className='ml-10 text-sm uppercase hover:scale-105 duration-200'>
-                        Sapphire
-                    </li>
-                    </Link>
                     <Link to="contact" spy={true} smooth={true} offset={-50} duration={500}>
                     <li className='ml-10 text-sm uppercase hover:scale-105 duration-200'>
                         Contact us
@@ -83,9 +78,6 @@ export const Navbar = () => {
                         <Link to="about" spy={true} smooth={true} offset={-50} duration={500}>
                             <li onClick={()=> setNav(false)} className='py-4 text-sm hover:scale-105 duration-200 cursor-pointer'>About us</li>
                         </Link>    
-                        <Link to="" spy={true} smooth={true} offset={-100} duration={500}>
-                            <li onClick={()=> setNav(false)} className='py-4 text-sm hover:scale-105 duration-200 cursor-pointer'>Sapphire</li>
-                        </Link>
                         <Link to="contact" spy={true} smooth={true} offset={-50} duration={500}>    
                             <li onClick={()=> setNav(false)} className='py-4 text-sm hover:scale-105 duration-200 cursor-pointer'>Contact us</li>
                         </Link>

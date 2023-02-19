@@ -44,7 +44,7 @@ const Main = () => {
         <div className="p-4 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
           <div className="grid grid-cols-2 justify-center items-center">
             <div className="m-auto">
-              <Image src={img2} width="64" height="64" alt="/" />
+              <Image src={img2} alt="/" />
             </div>
             <div className=" items-center justify-center">
               <h2>4500+</h2>
@@ -55,7 +55,7 @@ const Main = () => {
         <div className="p-4 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
           <div className="grid grid-cols-2 justify-center items-center">
             <div className="m-auto">
-              <Image src={img} width="64" height="64" alt="/" />
+              <Image src={img} alt="/" />
             </div>
             <div className=" items-center justify-center">
               <h2>28+</h2>
@@ -66,7 +66,7 @@ const Main = () => {
         <div className="p-4 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
           <div className="grid grid-cols-2 justify-center items-center">
             <div className="m-auto">
-              <Image src={img3} width="64" height="64" alt="/" />
+              <Image src={img3} alt="/" />
             </div>
             <div className=" items-center justify-center">
               <h2>5+</h2>

@@ -39,7 +39,7 @@ const Contact = () => {
             <div className="flex flex-col items-center">
               <h1 className="text-white">4.7</h1>
               <p className="text-white">Ratings in Google business</p>
-              <Image src={stars} width="200" height="64" alt="/" />
+              <Image src={stars} alt="/" />
             </div>
           </div>
         </div>
@@ -49,7 +49,8 @@ const Contact = () => {
           <hr />
           <div className="flex justify-between mt-4 px-16">
             <p className="py-8 font-thin text-white">
-              &copy; Copyright 2022 | All rights reserved | Designed by Aslah Ahmed
+              &copy; Copyright 2022 | All rights reserved | Designed by Aslah
+              Ahmed
             </p>
             <Link href="/">
               <div className="rounded-full shadow-lg shadow-gray-400 p-5 cursor-pointer hover:scale-110 ease-in duration-300">
